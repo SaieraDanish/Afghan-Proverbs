@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(235, 209, 161);
+  color: #080404;
+  text-align: center;
+ }
+ header {
+  background-color: #8B4513;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+ }
+ h1 {
+  flex: 1;
+  font-size: 2em;
+ }
+ h1:hover {
+  color: red;
+ }
+ nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  padding: 0.5em;
+ }
+ nav a {
+  color: yellow;
+  text-decoration: none;
+  padding: 0.5em 1em;
+ }
+ nav a:hover {
+  color: white;
+ }
+ section {
+  background-color: #dd8a3d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em;
+  border: solid 1px;
+  border-color: rgb(199, 169, 114);
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgb(233, 161, 68);
+  padding: 1em;
+ }
+ section h2 {
+  color: black;
+  text-align: center;
+  width: 100%;
+  line-height: 2;
+ }
+ .section-item {
+  min-width: 200px;
+  flex: 1 1 auto;
+  margin: 0.5em;
+  text-align: center;
+ }
+ .section-item p {
+  color: black;
+ }
+ .section-item img {
+  border: solid #080404;
+  border-radius: 30px;
+  box-shadow: 0 0 0.5em;
+  max-width: 100%;
+  height: auto;
+  margin: 0.5em auto;
+  width: 200px;
+  height: 200px;
+ }
+ .section-item img:hover {
+  transform: scale(1.1);
+ }
+ .submith {
+  background-color: #e9bf99;
+  padding: 0.2em;
+  border-radius: 0.5em;
+  margin: 0.5em auto;
+  color: black;
+  caret-color: red;
+  display: block;
+  width: 80%;
+ }
+ .proverbs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em;
+  gap: 1em;
+ }
+ .proverbs-item1,
+ .proverbs-item2 {
+  background-color: rgb(238, 199, 26);
+  border: solid rgb(230, 199, 26);
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 0.5em;
+  flex: 1 1 200px;
+  min-width: 200px;
+  box-sizing: border-box;
+  text-align: center;
+ }
+ .proverbs-item1:hover,
+ .proverbs-item2:hover {
+  background-color: #572605;
+  transform: scale(1.05);
+  color: white;
+ }
+ .proverbs p {
+  color: black;
+  margin: 0.5em 0 0;
+  font-weight: bold;
+  font-size: 1.2em;
+ }
+ .proverbs p:hover {
+  color: white;
+ }
+ footer {
+  background-color: #dd8a3d;
+  margin: 1em 0;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ footer:hover {
+  color: white;
+ }
+ footer p {
+  color: black;
+ }
+ footer p:hover {
+  color: white;
+ }
+ footer a {
+  color: blue;
+  text-decoration: none;
+  background-color: #e9bf99;
+  border: solid #c07126;
+  border-radius: 2em;
+  padding: 0.2em 0.5em;
+  margin: 0.2em;
+  display: inline-block;
+ }
+ footer a:hover {
+  color: yellow;
+ }
+ .div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 1em;
+  margin: 1em;
+ }
+ .div6 a{
+    color: blue;
+    text-decoration: none;
+    background-color: #e9bf99;
+    border: solid #c07126;
+    border-radius: 2em;
+    padding: 0.2em 0.5em;
+    margin: 0.2em;
+    display: inline-block;
+ }
+ .div1,
+ .div2,
+ .div3,
+ .div4 {
+  border: solid 2px #ceceea;
+  border-radius: 0.5em;
+  padding: 1em;
+  background-color: #d8a16a;
+  font-size: 1em;
+  box-shadow: 0 0 0.5em;
+ }
+ .div1:hover {
+  background-color: rgb(228, 228, 18);
+  transform: scale(1.05);
+  color: brown;
+ }
+ .div2:hover {
+  background-color: #e9bf99;
+  transform: scale(1.05);
+  color: brown;
+ }
+ .div3:hover {
+  background-color: #572605;
+  color: white;
+  transform: scale(1.05);
+ }
+ .div4:hover {
+  background-color: #81ee4f;
+  transform: scale(1.05);
+  color: brown;
+ }
+ .div5 {
+  border: solid 2px #ceceea;
+  border-radius: 0.5em;
+  padding: 1em;
+  background-color: #d1abba;
+  font-size: 1em;
+  box-shadow: 0 0 0.5em;
+  margin: 1em;
+  line-height: 1.4;
+ }
+ .a1{
+    color: blue;
+    text-decoration: none;
+    background-color: #e9bf99;
+    border: solid #c07126;
+    border-radius: 2em;
+    padding: 0.2em 0.5em;
+    margin: 0.2em;
+    display: inline-block;
+ }
+ .al:hover {
+  color: yellow;
+ }
+ .form p {
+    background-color: #d8a10a;
+    border: solid brown 1px;
+    border-radius: 0.5em;
+    box-shadow: 0 0 0.5em;
+    display: flex;
+    margin: 0 25em;
+    padding: 0.5em;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0.5em auto;
+}
+.form h2:hover{
+    transform: scale(2);
+    color: #572b05;
+}
+.form1{
+    background-color: #d8a10a;
+    display: inline-flex;
+}
+.form1:hover{
+    background-color: rgb(216, 193, 62);
+}
+.put {
+    background-color: rgb(228, 207, 167);
+    padding-right: 10em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    caret-color: red;
+}
+.lebel {
+    color: #080404;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.sub {
+    border-radius: 0.625em;
+    background-color: #e9bf99;
+    padding: 0.3125em;
+    display: inline-flex;
+    margin: 0.3125em 0.3125em;
+    border-color: beige;
+    color: black;
+}
